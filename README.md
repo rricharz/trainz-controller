@@ -4,9 +4,11 @@
 
   Copyright 2017 rricharz
   
-  The sketch has been written of a ARDUINO ESPLORA with LCD shield.
+  The sketch has been written for an ARDUINO ESPLORA with LCD shield.
   
   This sketch turns the Esplora into a game pad for Trainz (DCC control only).
+
+![Alt text](Controller.jpg?raw=true "Arduino Esplora")
   
   The buttons of the Esplora handle the following actions:
     top button           toggle map mode
