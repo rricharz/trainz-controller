@@ -7,6 +7,8 @@
 ![Alt text](Controller.jpg?raw=true "Arduino Esplora")
   
   The buttons of the Esplora handle the following actions:
+
+    Button:              Action:
     top button           toggle map mode
     left button          Refill supply (handled internally in Esplora)
     right button         toggle forward switch (turnout)
@@ -38,10 +40,14 @@
   which are normally assigned to the states of the keys on the keyboard. Therefore, the "shift", "alt" and "ctrl" keys need to be activaded
   at the same time, if for expample the keyboard code "ctrl-j" needs to be executed. Search for "KEY_LEFT_CTRL" and "KEY_LEFT_SHIFT" in the sketch.
   These might be replaced with "NULL" if keys without "ctrl" or "shift" are assigned to these actions. The sketch has been tested on a Mac (Trainz
-  from Appstore) and a Mac with TANE using a Swiss German keyboard. The following two actions might not work on other keyboards without
-  adding the following alternative key controls:
-    move backwards in consist         <shift> c
-    move forwards in consist          <ctrl>  c
+  from Appstore) and a Mac with TANE using a Swiss German keyboard.
+
+  The following two actions might not work on other keyboards without
+  adding the following
+
+    alternative key controls:
+    move backwards in consist         shift-c
+    move forwards in consist          ctrl-cc
 
   This program is free software; you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
